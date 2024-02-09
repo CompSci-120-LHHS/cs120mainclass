@@ -31,11 +31,5 @@ public class ScannerInput {
         System.out.println("Product of " + num1 + " and " + num2 + " is: " + product);
         System.out.println("Division of " + num1 + " and " + num2 + " is: " + div);
         scan.close();
-
-
-
-
-
-
     }
 }
