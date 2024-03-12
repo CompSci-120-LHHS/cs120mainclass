@@ -1,0 +1,72 @@
+#######  Assessment 02 - Input From Users and Files #######
+
+--------------------------------------------------------------------------------------------------------------------------
+(1) Exercise KeyboardScanner (Keyboard Input): Write a program called KeyboardScanner to prompt user for an int, a double, and a String.
+The output shall look like this:
+
+Enter an integer: 12
+Enter a floating point number: 33.44
+Enter your name: Peter
+Hi! Peter, the sum of 12 and 33.44 is 45.44
+--------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------
+(2) Exercise FileScanner (File Input): Write a program called FileScanner to read an int, a double, and a String form a text file called "in.txt".
+The output shall look like this:
+
+The integer read is 12
+The floating point number read is 33.44
+The String read is "Peter"
+Hi! Peter, the sum of 12 and 33.44 is 45.44
+--------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------
+(3) Exercise CircleComputation (User Input): Write a program called CircleComputation, which prompts user for a radius (in double) and
+compute the area and circumference of the circle rounded to 2 decimal places.
+The output shall look like this:
+
+Enter the radius: 1.2
+The area is: 4.52
+The circumference is: 7.54
+Hints: π is kept in a constant called Math.PI.
+--------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------
+(4) Exercise ReverseString: Write a program called ReverseString, which prompts user for a String, and prints the reverse of the String.
+The output shall look like this:
+
+Enter a String: abcdef
+The reverse of the String "abcdef" is "fedcba".
+--------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------
+(5) Exercise CheckVowelsDigits: Write a program called CheckVowelsDigits, which prompts the user for a String, counts the number of vowels
+(a, e, i, o, u, A, E, I, O, U) and digits (0-9) contained in the string, and prints the counts and the percentages (with 2 decimal digits).
+The output shall look like this:
+
+Enter a String: testing12345
+Number of vowels: 2 (16.67%)
+Number of digits: 5 (41.67%)
+
+Hints:
+•	To check if a char c is a digit, you can use boolean expression (c >= '0' && c <= '9'); or use built-in boolean function Character.isDigit(c).
+•	You could use in.next().toLowerCase() to convert the input String to lowercase reduce the number of cases.
+•	To print a % using printf(), you need to use %%. This is because % has a special meaning in printf(), e.g., %d and %f.
+--------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------
+(6) Exercise PhoneKeyPad: On your phone keypad, the alphabets are mapped to digits as follows: ABC(2), DEF(3), GHI(4), JKL(5), MNO(6), PQRS(7),
+TUV(8), WXYZ(9). Write a program called PhoneKeyPad, which prompts user for a String (case insensitive), and converts to a sequence of keypad digits.
+Use a nested-if (or switch-case) in this exercise.
+
+Hints:
+•	You can use in.next().toLowerCase() to read a String and convert it to lowercase to reduce your cases.
+•	In switch, you can handle multiple cases, e.g.,
+switch (inChar) {  // switch on a char
+   case 'a': case 'b': case 'c':
+      System.out.print(2); break;
+   case 'd': case 'e': case 'f':
+      ......
+   default:
+      ......
+}
+--------------------------------------------------------------------------------------------------------------------------
+
+
+
+
